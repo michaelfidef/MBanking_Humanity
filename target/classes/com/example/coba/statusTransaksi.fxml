@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="510.0" style="-fx-background-color: #BBD2EC;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.coba.HelloController">
+   <children>
+      <AnchorPane layoutX="1.0" prefHeight="750.0" prefWidth="510.0">
+         <children>
+            <Button fx:id="homeBTN" layoutX="18.0" layoutY="666.0" mnemonicParsing="false" onAction="#homeBTNonaction" prefHeight="61.0" prefWidth="96.0" text="Home" />
+            <Button fx:id="pesanBTN" layoutX="144.0" layoutY="666.0" mnemonicParsing="false" onAction="#pesanBTNonaction" prefHeight="61.0" prefWidth="90.0" text="Pesan" />
+            <Button fx:id="setingBTN" layoutX="268.0" layoutY="666.0" mnemonicParsing="false" onAction="#settingBTNonaction" prefHeight="61.0" prefWidth="90.0" text="Setting" />
+            <Button fx:id="codeBTN" layoutX="386.0" layoutY="666.0" mnemonicParsing="false" onAction="#logoutBTNonaction" prefHeight="61.0" prefWidth="96.0" text="Log Out" />
+            <Line endX="389.0" layoutX="117.0" layoutY="635.0" startX="-114.0" />
+            <Line endX="91.0" layoutX="109.0" layoutY="120.0" startX="-114.0" />
+            <Text layoutX="201.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pesan" wrappingWidth="96.0">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <TextArea layoutX="48.0" layoutY="201.0" prefHeight="89.0" prefWidth="415.0" text="12/08/23&#10;&#10;Bank Raktjat&#10;Angela Gracia" />
+            <Line endX="91.0" layoutX="419.0" layoutY="119.0" startX="-133.5" />
+            <Text layoutX="38.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Semua Transaksi">
+               <font>
+                  <Font size="18.0" />
+               </font></Text>
+            <TextArea layoutX="47.0" layoutY="302.0" prefHeight="89.0" prefWidth="415.0" text=".............&#10;&#10;" />
+            <TextArea layoutX="47.0" layoutY="409.0" prefHeight="89.0" prefWidth="415.0" text="..............." />
+            <TextArea layoutX="42.0" layoutY="514.0" prefHeight="89.0" prefWidth="415.0" text="..................&#10;" />
+            <Text layoutX="355.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-Rp 100.000,00" />
+            <Button layoutX="399.0" layoutY="143.0" minWidth="49.0" mnemonicParsing="false" onAction="#mutasiBTNonaction" prefHeight="27.0" prefWidth="49.0" text="Sort" />
+            <Text layoutX="375.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Berhasil" />
+            <Button layoutX="317.0" layoutY="70.0" mnemonicParsing="false" onAction="#statusTransaksiBTNonaction" prefHeight="27.0" prefWidth="164.0" text="Status Transaksi">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="22.0" layoutY="70.0" mnemonicParsing="false" onAction="#notifikasiBTNonaction" prefHeight="27.0" prefWidth="164.0" text="Notifikasi">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>

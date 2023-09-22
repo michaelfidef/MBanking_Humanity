@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="750.0" prefWidth="510.0" spacing="20.0" style="-fx-background-color: #BBD2EC;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.coba.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane prefHeight="750.0" prefWidth="557.0">
+      <children>
+      
+          <Label fx:id="welcomeText" prefHeight="17.0" prefWidth="201.0" />
+         <TextField fx:id="usernameTextfield" layoutX="114.0" layoutY="276.0" onAction="#loginBTNonaction" prefHeight="46.0" prefWidth="327.0" promptText="username" />
+         <PasswordField fx:id="passwordField" layoutX="114.0" layoutY="340.0" onAction="#loginBTNonaction" prefHeight="46.0" prefWidth="327.0" promptText="password" />
+         <Line endX="100.0" layoutX="101.0" layoutY="528.0" startX="-100.0" />
+         <Line endX="90.0" layoutX="431.0" layoutY="528.0" startX="-100.0" />
+         <Button fx:id="loginBTN" layoutX="110.0" layoutY="460.0" mnemonicParsing="false" onAction="#loginBTNonaction" prefHeight="38.0" prefWidth="327.0" style="-fx-background-color: #5ed75e;" text="Login" textFill="WHITE">
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font></Button>
+         <Text layoutX="126.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selamat Datang di M-Banking Humanity!" textAlignment="CENTER" wrappingWidth="294.0">
+            <font>
+               <Font name="System Bold" size="24.0" />
+            </font></Text>
+         <Text layoutX="250.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ATAU" wrappingWidth="46.0">
+            <font>
+               <Font size="16.0" />
+            </font></Text>
+         <Label fx:id="loginLabel" layoutX="187.0" layoutY="418.0" onDragDetected="#loginBTNonaction" />
+         <Rectangle arcHeight="5.0" arcWidth="5.0" height="88.0" layoutX="227.0" layoutY="54.0" stroke="BLACK" strokeType="INSIDE" width="94.0">
+            <fill>
+               <LinearGradient endX="1.0" endY="1.0">
+                  <stops>
+                     <Stop>
+                        <color>
+                           <Color red="0.577850878238678" green="0.6260051131248474" blue="0.6710526347160339" />
+                        </color>
+                     </Stop>
+                     <Stop offset="1.0">
+                        <color>
+                           <Color red="1.0" green="1.0" blue="1.0" />
+                        </color>
+                     </Stop>
+                  </stops>
+               </LinearGradient>
+            </fill>
+         </Rectangle>
+         <Text layoutX="257.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGO" textAlignment="CENTER" />
+         <Hyperlink fx:id="toSignUp" layoutX="235.0" layoutY="558.0" onAction="#signUpLinkonaction" text="Sign Up" textFill="#282828fc">
+            <font>
+               <Font size="18.0" />
+            </font>
+         </Hyperlink>
+      </children>
+   </AnchorPane>
+</VBox>

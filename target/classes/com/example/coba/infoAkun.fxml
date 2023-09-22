@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="510.0" style="-fx-background-color: #BBD2EC;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.coba.HelloController">
+    <children>
+        <AnchorPane layoutX="1.0" prefHeight="750.0" prefWidth="510.0">
+            <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="133.0" layoutX="40.0" layoutY="481.0" stroke="BLACK" strokeType="INSIDE" width="431.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="114.0" layoutX="40.0" layoutY="353.0" stroke="BLACK" strokeType="INSIDE" width="431.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="76.0" layoutX="39.0" layoutY="261.0" stroke="BLACK" strokeType="INSIDE" width="431.0" />
+                <Button fx:id="homeBTN" layoutX="18.0" layoutY="666.0" mnemonicParsing="false" onAction="#homeBTNonaction" prefHeight="61.0" prefWidth="96.0" style="-fx-background-color: #3C6AA6;" text="Home" textFill="WHITE">
+                    <font>
+                        <Font size="14.0" />
+                    </font></Button>
+                <Button fx:id="pesanBTN" layoutX="144.0" layoutY="666.0" mnemonicParsing="false" onAction="#pesanBTNonaction" prefHeight="61.0" prefWidth="90.0" style="-fx-background-color: #3C6AA6;" text="Pesan" textFill="WHITE">
+                    <font>
+                        <Font size="14.0" />
+                    </font></Button>
+                <Button fx:id="setingBTN" layoutX="268.0" layoutY="666.0" mnemonicParsing="false" onAction="#settingBTNonaction" prefHeight="61.0" prefWidth="90.0" style="-fx-background-color: #3C6AA6;" text="Setting" textFill="WHITE">
+                    <font>
+                        <Font size="14.0" />
+                    </font></Button>
+                <Button fx:id="codeBTN" layoutX="377.0" layoutY="666.0" mnemonicParsing="false" onAction="#logoutBTNonaction" prefHeight="61.0" prefWidth="105.0" style="-fx-background-color: #3C6AA6;" text="Log Out" textFill="WHITE">
+                    <font>
+                        <Font size="14.0" />
+                    </font></Button>
+                <Line endX="389.0" layoutX="117.0" layoutY="635.0" startX="-114.0" />
+                <Line endX="389.0" layoutX="117.0" layoutY="107.0" startX="-114.0" />
+                <Circle fill="DODGERBLUE" layoutX="247.0" layoutY="184.0" radius="57.0" stroke="BLACK" strokeType="INSIDE" />
+                <Text layoutX="101.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Informasi Akun" textAlignment="CENTER" wrappingWidth="292.0">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Text>
+                <Text layoutX="56.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nama Pemilik Akun : fidef">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+                <Text layoutX="53.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tabungan IDR">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+                <Text layoutX="54.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1232210000">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+                <Text layoutX="54.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.000.000.000">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+                <Text layoutX="56.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email : michael.fidef@ti.ukdw.ac.id">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+                <Text layoutX="54.0" layoutY="503.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Limit Penarikan">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+                <Text layoutX="199.0" layoutY="591.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8.000.000" wrappingWidth="96.0">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Text>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#36bbe8" height="13.0" layoutX="86.0" layoutY="528.0" stroke="BLACK" strokeType="INSIDE" width="328.0" />
+                <Circle fill="#fafbfc" layoutX="385.0" layoutY="535.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+                <Text fill="#111111" layoutX="377.0" layoutY="599.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10.000.000" wrappingWidth="75.46875">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+                <Text layoutX="63.0" layoutY="599.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50.000" wrappingWidth="75.46875">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+                <Text layoutX="76.0" layoutY="579.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Min" wrappingWidth="75.46875">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+                <Text fill="#111111" layoutX="397.0" layoutY="578.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Max" wrappingWidth="75.46875">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+            </children>
+        </AnchorPane>
+    </children>
+</Pane>

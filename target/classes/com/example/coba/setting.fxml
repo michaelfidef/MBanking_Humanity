@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="510.0" style="-fx-background-color: #BBD2EC;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.coba.HelloController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="510.0">
+         <children>
+            <Text layoutX="224.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Setting">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Text>
+            <Line endX="365.8000183105469" endY="7.62939453125E-6" layoutX="123.0" layoutY="77.0" startX="-100.0" />
+            <TextArea layoutX="22.0" layoutY="94.0" prefHeight="94.0" prefWidth="467.0" />
+            <Text layoutX="31.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Akun">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="65.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Nama Panggilan">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextArea layoutX="22.0" layoutY="187.0" prefHeight="94.0" prefWidth="467.0" />
+      <TextArea layoutX="22.0" layoutY="281.0" prefHeight="94.0" prefWidth="467.0" />
+      <Text layoutX="75.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bahasa">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextArea layoutX="22.0" layoutY="394.0" prefHeight="94.0" prefWidth="467.0" />
+      <Text layoutX="31.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Keamanan">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="96.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PIN">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <TextArea layoutX="22.0" layoutY="488.0" prefHeight="94.0" prefWidth="467.0" />
+      <Text layoutX="87.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Line endX="379.0" layoutX="123.0" layoutY="635.0" startX="-117.0" />
+      <Text layoutX="80.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="homeBTN" layoutX="20.0" layoutY="665.0" mnemonicParsing="false" onAction="#homeBTNonaction" prefHeight="61.0" prefWidth="96.0" style="-fx-background-color: #3C6AA6;" text="Home" textFill="WHITE" />
+      <Button fx:id="homeBTN1" layoutX="143.0" layoutY="665.0" mnemonicParsing="false" onAction="#pesanBTNonaction" prefHeight="61.0" prefWidth="96.0" style="-fx-background-color: #3C6AA6;" text="Pesan" textFill="WHITE" />
+      <Button fx:id="homeBTN2" layoutX="269.0" layoutY="665.0" mnemonicParsing="false" onAction="#settingBTNonaction" prefHeight="61.0" prefWidth="96.0" style="-fx-background-color: #3C6AA6;" text="Setting" textFill="WHITE" />
+      <Button fx:id="homeBTN3" layoutX="391.0" layoutY="665.0" mnemonicParsing="false" onAction="#logoutBTNonaction" prefHeight="61.0" prefWidth="96.0" style="-fx-background-color: #3C6AA6;" text="Log Out" textFill="WHITE" />
+   </children>
+</Pane>
